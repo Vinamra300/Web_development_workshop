@@ -1,0 +1,253 @@
+html,
+body {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+canvas 
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    margin-top: 120px;
+ }
+
+.noHover
+{
+    pointer-events: none;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.jumbotron
+{
+    height: 510px;
+    padding-left: 100px;
+    background-color:transparent;
+}
+
+.lead{
+    font-size: 40px;
+}
+
+.container{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.allskills{
+    margin:10px;
+    transition: all 1s;
+}
+
+.allskills:hover{
+    transform: scale(1.2);
+}
+
+
+.navbar{
+    padding: 2px;
+    border-radius: 0px 0px  20px 0px;
+    box-shadow: 0 0 25px 5px  #343a40;
+    padding-top: 10px;
+}
+.navbar-brand{
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.btn-danger{
+    margin-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:white;
+}
+
+
+.cover_image{
+    pointer-events: none;
+    max-width: 16.4%;
+    padding-right: 100px;
+}
+
+.about_me_cover{
+    height: 760px;
+    background-color: red;
+}
+
+.about_content{
+    padding-top: 150px;
+    color: white;
+}
+
+.assets_cover{
+    padding-left: 100px;
+    width: 380px;
+}
+
+.skills{
+    font-size: 55px;
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.display-4{
+    margin-top: 170px;
+    font-weight: 1000;
+    font-size: 80px;
+    text-shadow: 2px 2px;
+}
+
+.text_skills{
+    margin-top: 80px;
+    font-weight: 1000;
+    font-size: 80px;
+    text-shadow: 2px 2px;
+    
+}   
+
+.d-block {
+    display: block!important;
+    margin: auto;
+    padding-top: 50px;
+    width: 900px;
+}
+
+.carousel-control-prev{
+    margin: auto;
+    padding-top: 50px;
+    width: 300px;
+}
+
+.carousel-control-next{
+    margin: auto;
+    padding-top: 50px;
+    width: 300px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+.contact_me_cover {
+    height: 250px;
+    background-color: #343a40;
+    border-radius: 22px 22px 0px 0px;
+    box-shadow: 0 0 25px 5px  #343a40;
+
+}
+
+.centerdiv{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icos{
+   height: 70px;
+   width: 70px;
+   background-color: #f5f6fa;
+   border-radius: 50px;
+   text-align: center;
+   margin: 10px;
+   line-height: 80px;
+   transition: all 0.9s linear;
+   transform: scale(1.0) ;
+
+}
+
+.fa-instagram{
+    color: #e84393;
+}
+
+.fa-linkedin{
+    color: #0097e6;
+}
+
+.fa-twitter{
+    color: #0097e6;
+}
+  
+.redText 
+{ 
+    color: red; 
+    font-weight: 1000;
+} 
+
+.contact_skills
+{
+    margin-top: 80px;
+    font-weight: 800;
+    font-size: 60px;
+    margin-left: 80px;
+}
+
+.contact__form
+{
+    width: 680px;
+}
+
+.contact__container
+{
+    padding-top: 3%;
+    padding-left: 30%;
+    justify-items: center;
+}
+
+.contact__input
+{
+    width: 100%;
+    font-size: 0.938rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid red;
+    box-shadow: 5px 10px 18px red;
+    outline: none;
+    margin-bottom: 2rem;
+}
+.contact__button
+{
+    display: block;
+    border:none;
+    outline:none;
+    font-size: 1.3rem;
+    box-shadow: 5px 10px 18px black;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+

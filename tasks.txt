@@ -1,0 +1,4 @@
+Modify navbar with text on hover
+Video popup
+Adding gif
+Text animation
